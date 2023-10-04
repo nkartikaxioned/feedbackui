@@ -167,11 +167,12 @@ li {
  .rating { 
   margin: 10px 5px;
   padding: 20px;
+  cursor: pointer;
   }
  
   .rating:hover {
-    color: #454444;
-    box-shadow:0 0 8px rgba(0, 0, 0, 0.1);
+    box-shadow:0 0 8px #0000001a;
+    text-shadow: .5px 0 0 #000;
   }
 
   .rating span { 
