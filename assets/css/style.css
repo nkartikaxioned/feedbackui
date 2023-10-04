@@ -79,7 +79,7 @@ sub { bottom: -.25em; }
 }
 
 .cf:after { clear: both; }
-.cf { *zoom: 1; }
+/* .cf { *zoom: 1; } */
 
 /*for all*/
 body {
@@ -103,47 +103,42 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
 =================================*/
 
+/* feeback_ui secction style start */
+.feedback_ui{ 
+  display: flex;
+  flex-direction: column;
+  background: #FEF9F1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
 
+.feedback_ui .wrapper { 
+  height: 38%;
+    max-width: 330px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  background: #FFF;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+}
 
-
-
-
-
+.feedback_ui .wrapper h1 { 
+  font-weight: bold;
+  max-width: 95%;
+}
+/* feeback_ui section style end */
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
