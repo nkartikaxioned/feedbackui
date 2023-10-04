@@ -127,6 +127,11 @@ li {
   background-color: #5c5b5b;
   border-radius: 3px;
 }
+
+.wrapper p:first-child { 
+  font-size: 60px; 
+  color: #ff0000; 
+}
 /*=================================
   main styling starts here
 =================================*/
