@@ -128,10 +128,14 @@ li {
   border-radius: 3px;
 }
 
-.wrapper p:first-child { 
+.wrapper .newspan { 
   font-size: 60px; 
   color: #ff0000; 
 }
+
+.wrapper .headerr{ padding-bottom: 20px;}
+.wrapper .paragraph {padding: 20px 0 10px;}
+
 /*=================================
   main styling starts here
 =================================*/
@@ -158,11 +162,6 @@ li {
   background: #FFF;
   box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
 }
-
-/* .feedback_ui .wrapper h1 { 
-  font-weight: bold;
-  max-width: 95%;
-} */
 
 .feedback_container { 
   display: flex;

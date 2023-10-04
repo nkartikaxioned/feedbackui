@@ -15,8 +15,6 @@ feedback.forEach((element,index) => {
       removActive();
         element.classList.add('active');
         stringFeedback=(texts[index].innerHTML).toUpperCase();
-        
-        console.log(stringFeedback)
      })
         
 })
@@ -29,12 +27,10 @@ function removActive(){
 
 button.addEventListener('click',() => {
     wrapcontainer.innerHTML=`
-    <p>&#9829;</p>
-    <strong>Thank You!</strong>
-    <br>
+    <span class="newspan">&#9829;</span>
+    <h1 class="headerr">Thank You!</h1>
     Feedback: ${stringFeedback}
-    <br><br>
-    <p>We'll use your feedback to improve our customer support</p>
+    <p class="paragraph">We'll use your feedback to improve our customer support</p>
     `
 })
 
