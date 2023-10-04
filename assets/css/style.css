@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 /* ==========================================================================
    1. CSS Reset Code
    ========================================================================== */
@@ -104,6 +105,28 @@ li {
   margin: 0 auto;
 }
 
+/* common class style start */
+
+.first-letter-caps::first-letter { text-transform: capitalize; }
+.caps { text-transform: capitalize; }
+.caps-first { text-transform: capitalize; }
+
+.button {
+  background: #302D2B;
+  border-radius: 3px;
+}
+
+.button a { 
+  color: #FFF;
+  padding: 10px 25px;
+  font-size: 14px;
+  transition: .2s;
+}
+
+.button a:hover {
+  background-color: #5c5b5b;
+  border-radius: 3px;
+}
 /*=================================
   main styling starts here
 =================================*/
@@ -120,9 +143,10 @@ li {
 }
 
 .feedback_ui .wrapper { 
-  height: 38%;
-    max-width: 330px;
+  height: 34%;
+    max-width: 310px;
     padding: 30px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,10 +154,47 @@ li {
   box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.feedback_ui .wrapper h1 { 
+/* .feedback_ui .wrapper h1 { 
   font-weight: bold;
   max-width: 95%;
-}
+} */
+
+.feedback_container { 
+  display: flex;
+    margin: 20px;
+ }
+
+ .rating { 
+  margin: 10px 5px;
+  padding: 20px;
+  }
+ 
+  .rating:hover {
+    color: #454444;
+    box-shadow:0 0 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .rating span { 
+    color: #5c5b5b;
+    font-size: 14px;
+  }
+
+  .bottom { 
+    display: block;
+    margin-top: 19px; 
+  }
+
+  .top { display: block; }
+
+  .wrapper h1 { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+
+  .active {
+    color: #454444;
+    box-shadow:0 0 8px rgba(0, 0, 0, 0.1);
+  }
 /* feeback_ui section style end */
 
 /*=================================
